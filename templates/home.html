@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hybrid Cryptography</title>
+    </head>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+ 
+        h1{
+            text-align: center;
+            font-size: 75px;
+        }
+
+        form{
+            text-align: center;
+        }
+
+        input[type="file"] {
+            width: 15em;  
+            height: 4em;
+            font-size: 30px;
+        }
+
+        input[type=submit] {
+            width: 15em;  
+            height: 3em;
+            font-size: 30px;
+        }
+
+        p{
+            font-size: 30px;
+        }
+    </style>
+    <body> 
+        <h1> Hybrid Cryptography Project</h1><br><br>
+        <form action="/data/" method="post" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <input type="submit" value="Upload & Process">
+            <p>Note : Only *.txt files are allowed</p>
+        </form>
+    </body>
+</html>

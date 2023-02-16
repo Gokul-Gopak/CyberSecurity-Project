@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+    <style>
+        body{
+        background-color: white;
+        color: black;
+      } 
+      h1{
+        text-align: center;
+        font-size: 75px;
+      }
+
+      form{
+        text-align: center;
+        color: black;
+      }
+
+      input[type="file"] {
+        width: 15em;  
+        height: 4em;
+        font-size: 30px;
+      }
+      
+      p{
+          font-size: 50px;
+          color: crimson;
+          text-align: center;
+      }
+
+      input[type=submit] {
+        width: 15em;  
+        height: 3em;
+        font-size: 30px;
+      }
+
+    </style>
+</head>
+<body>
+    <h1> Hybrid Crypto!!! </h1><br>
+
+    <meta charset=utf-8>
+    <p>No file selected !</p>
+    <form action="/data/" method=post enctype=multipart/form-data>
+        <p>  Only *.txt files allowed.</p><br>
+        <input type=file name=file><br><br>
+        <input type=submit value="Upload & Process">
+    </form>
+</body>
+</html>
